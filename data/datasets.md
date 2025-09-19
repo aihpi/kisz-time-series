@@ -20,34 +20,6 @@ The following datasets have been prepared for this course and are **hosted on Hu
 
 ---
 
-## Data Organization
-
-All datasets in this repository follow the typical **four-folder structure**:
-
-- **`raw/`**  
-  The original, immutable data as obtained from source(s).  
-  - No changes are made here.  
-  - Use this as the "ground truth" reference.
-
-- **`interim/`**  
-  Intermediate data that has been transformed or partially processed.  
-  - Typically generated during cleaning, filtering, or feature engineering.  
-  - Not yet final for modeling or analysis.
-
-- **`processed/`**  
-  The final, cleaned datasets ready for use in analysis or modeling.  
-  - Optimized for reproducibility and teaching.  
-  - These are the files you’ll typically load in notebooks and scripts.  
-
-- **`external/`**  
-  Data from third-party sources that is not produced internally.  
-  - May include benchmark datasets or references downloaded from external repositories.  
-  - Often used for comparison or enrichment.  
-
-**Tip:** Always avoid editing files directly inside `raw/`. Instead, create transformations that move data through the pipeline (`raw → interim → processed`).  
-
----
-
 ## Additional Relevant Datasets
 
 The following datasets were not prepared for this course, but cover different fields and may be useful for you.  
