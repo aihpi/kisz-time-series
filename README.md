@@ -29,7 +29,7 @@ In progress
 
 ## Installation
 
-You can find instructions on how to use this materials check [here](/notebooks/01_introduction.ipynb).
+You can find instructions on how to use this materials [here](/notebooks/01_Introduction.ipynb).
 
 ## FAQ
 
@@ -54,3 +54,4 @@ Please adhere to this project's [`code of conduct`](CODE_OF_CONDUCT.md).
 ## License
 
 [GNU GENERAL PUBLIC LICENSE, V.3](LICENSE)
+
