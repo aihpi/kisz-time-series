@@ -4,7 +4,6 @@
     <h1 style="text-align:center;"> Time Series Analysis and Forecasting </h1>
 </div>
 
-<<<<<<< HEAD
 In this repository, you'll find code and resources for the OpenHPI course [Time Series Analysis and Forecasting](https://open.hpi.de/courses/timeseries2025).
 
 ---
@@ -20,6 +19,7 @@ In this repository, you'll find code and resources for the OpenHPI course [Time 
 - Extra resources: v1.0.0
 
 ---
+
 ## Course Structure
 
 0. [Practical Introduction to the Course](./notebooks/01_Introduction.ipynb)
@@ -69,7 +69,7 @@ In this repository, you'll find code and resources for the OpenHPI course [Time 
     - Forecast using a pretrained framework (e.g., PyTorch Forecasting or Darts).
 5. State-of-the-Art Architectures
     - Experiment with N-BEATS, N-HiTS, Autoformer (using an existing library like NeuralForecast or Darts).
-   - Benchmark against traditional methods.
+    - Benchmark against traditional methods.
 
 ### Part E: Wrap-Up & Integration
 
@@ -77,6 +77,7 @@ In this repository, you'll find code and resources for the OpenHPI course [Time 
     - Data prep, feature engineering, baseline models, advanced models, evaluation.
     - Case study on a real dataset (e.g., electricity demand or M4 competition dataset).
 
+---
 
 ## Documentation
 
@@ -86,7 +87,7 @@ In progress
 
 ## Installation
 
-You can find instructions on how to use this materials check [here](/notebooks/01_introduction.ipynb).
+You can find instructions on how to use this materials [here](/notebooks/01_Introduction.ipynb).
 
 ## FAQ
 
