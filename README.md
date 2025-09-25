@@ -4,7 +4,6 @@
     <h1 style="text-align:center;"> Time Series Analysis and Forecasting </h1>
 </div>
 
-<<<<<<< HEAD
 In this repository, you'll find code and resources for the OpenHPI course [Time Series Analysis and Forecasting](https://open.hpi.de/courses/timeseries2025).
 
 ---
@@ -29,7 +28,7 @@ In progress
 
 ## Installation
 
-You can find instructions on how to use this materials check [here](/notebooks/01_introduction.ipynb).
+You can find instructions on how to use this materials [here](/notebooks/01_Introduction.ipynb).
 
 ## FAQ
 
@@ -54,3 +53,5 @@ Please adhere to this project's [`code of conduct`](CODE_OF_CONDUCT.md).
 ## License
 
 [GNU GENERAL PUBLIC LICENSE, V.3](LICENSE)
+
+
