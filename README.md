@@ -20,6 +20,63 @@ In this repository, you'll find code and resources for the OpenHPI course [Time 
 - Extra resources: v1.0.0
 
 ---
+## Course Structure
+
+0. [Practical Introduction to the Course](./notebooks/01_Introduction.ipynb)
+
+### Part A: Foundations & Data Exploration
+
+1. [Loading and manipulating the data](./notebooks/A01_Loading_data.ipynb)
+2. [Visualizing time series](./notebooks/A02_Basic_plotting.ipynb)
+3. [Handling Missing Data](./notebooks/A03_Handling_missing_data.ipynb)
+4. [Handling Outliers](./notebooks/A04_Handling_outliers.ipynb)
+5. [Forecasting Baselines](./notebooks/A05_Handling_outliers.ipynb)
+6. [Evaluating Models](./notebooks/A06_Evaluating_models.ipynb)
+
+### Part B: Statistical Forecasting
+
+1. [Exponential Smoothing Models](./notebooks/B01_Exponential_smoothing_models.ipynb)
+2. [ARIMA Family Models](./notebooks/B02_ARIMA_models.ipynb)
+3. [Advanced Statistical Methods](./notebooks/B03_Advanced_statistical_models.ipynb)
+4. [Probabilistic Forecasting](./notebooks/B04_Probabilistic_forecasting.ipynb)
+
+### Part C: Machine Learning Approaches
+
+1. Feature Engineering for ML Forecasting
+    - Generate lag features, rolling statistics, Fourier terms, calendar features.
+    - Explore feature importances with tree models.
+
+2. ML Models for Forecasting
+    - Compare linear regression, random forests, gradient boosting on time series regression tasks.
+    - Discuss limitations of ML vs statistical baselines.
+3. Ensembles and Model Combinations
+    - Weighted averaging, stacking simple ARIMA + RF + XGBoost.
+    - Show how ensembling improves robustness.
+
+### Part D: Deep Learning Approaches
+
+1. Intro to Neural Networks for Time Series
+    - Train a simple feed-forward NN on lagged features.
+    - Compare with linear regression baseline.
+2. RNNs (LSTM, GRU)
+    - Forecast univariate time series with LSTM/GRU.
+    - Show sequence-to-sequence architecture.
+3. CNNs for Time Series
+    - Use 1D convolutions for forecasting.
+    - Compare receptive fields with RNN.
+4. Transformers for Time Series
+    - Build a simple attention-based model.
+    - Forecast using a pretrained framework (e.g., PyTorch Forecasting or Darts).
+5. State-of-the-Art Architectures
+    - Experiment with N-BEATS, N-HiTS, Autoformer (using an existing library like NeuralForecast or Darts).
+   - Benchmark against traditional methods.
+
+### Part E: Wrap-Up & Integration
+
+1. End-to-End Forecasting Pipeline
+    - Data prep, feature engineering, baseline models, advanced models, evaluation.
+    - Case study on a real dataset (e.g., electricity demand or M4 competition dataset).
+
 
 ## Documentation
 
