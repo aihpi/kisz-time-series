@@ -10,13 +10,14 @@ The following datasets have been prepared for this course and are **hosted on Hu
 
 | Dataset Name | Domain | Link | Description |
 | ------------ | ------ | ---- | ----------- |
-| `ops_data_15m.parquet` | Energy | [Link](https://huggingface.co/datasets/mt0rm0/opsdata) | Electricity Consumption Data for European Countries, Freq 15min - Source: ENTSO-E Transparency Platform |
-| `ops_data_30m.parquet` | Energy | [Link](https://huggingface.co/datasets/mt0rm0/opsdata) | Electricity Consumption Data for European Countries, Freq 30min - Source: ENTSO-E Transparency Platform |
+| `ops_data_15m.parquet` | Energy | [Link](https://huggingface.co/datasets/mt0rm0/opsdata) | Electricity Consumption Data for some European Countries, Freq 15min - Source: ENTSO-E Transparency Platform |
+| `ops_data_30m.parquet` | Energy | [Link](https://huggingface.co/datasets/mt0rm0/opsdata) | Electricity Consumption Data for some European Countries, Freq 30min - Source: ENTSO-E Transparency Platform |
+| `cdc_monthly_regional_air_temp_D` | Climate | [Link](https://huggingface.co/datasets/mt0rm0/cdcdata) | Regional monthly air Temperature in Germany - Source: Deutscher Wetterdienst|
 
 📌 **Usage Notes**
   
 - All datasets are stored in **Parquet format**, which allows efficient reading and storage.  
-- You can use **`pandas.read_parquet()`** to load them directly in your notebooks.  
+- You can use **`pandas.read_parquet(<filename>)`** to load them directly in your notebooks.  
 
 ---
 
@@ -45,22 +46,3 @@ The following datasets were not prepared for this course, but cover different fi
 
 ## Contributing
 If you discover additional datasets that could be relevant for this course, feel free to suggest them via a pull request or by opening an issue in this repository.
-
-
-
-
-
-## ✅ Prepared Datasets
-
-The following datasets have been prepared for this course and are **hosted on Hugging Face**. They are not included in this repository; you can download them directly as needed.
-
-| Dataset Name | Hugging Face Link | Description | Format | Notes |
-|--------------|-----------------|-------------|--------|-------|
-| `dataset1` | [Link](https://huggingface.co/dataset1) | Example: student performance data (cleaned, anonymized). | CSV | Ready to use; can be loaded with `datasets` library |
-| `dataset2` | [Link](https://huggingface.co/dataset2) | Example: product reviews with sentiment labels. | JSON | Preprocessed for NLP exercises |
-| `dataset3` | [Link](https://huggingface.co/dataset3) | Example: image dataset of handwritten characters. | Images (PNG) | Can be downloaded as a dataset or subset for exercises |
-
-📌 **Usage Notes**  
-- You can use the [Hugging Face `datasets`](https://huggingface.co/docs/datasets/index) library to load these datasets directly in your notebooks.  
-- These datasets have been cleaned, preprocessed, and anonymized where necessary.  
-- For large datasets (like images), consider using subsets if you have limited disk space or computing resources.

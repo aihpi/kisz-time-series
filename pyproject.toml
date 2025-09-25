@@ -11,4 +11,5 @@ dependencies = [
     "pip>=25.2",
     "pyarrow>=21.0.0",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.5",
 ]
